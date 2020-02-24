@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css?family=Signika:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Tomorrow:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Charm:400,700&display=swap");
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --ff-primary: "Signika", "Roboto", sans-serif;
+    --ff-secondary: "Tomorrow", "Roboto", sans-serif;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+    --clr-light: #fff;
+    --clr-dark: rgb(5, 13, 24);
+    --clr-accent: rgb(0, 31, 170);
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.15rem;
+    --fs-body: 1rem;
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
 }

@@ -1,0 +1,23 @@
+.App {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6px;
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+}
+
+.App--night-mode {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.just {
+    height: 80vh;
+    width: 100vw;
+    background-color: inherit;
+}
