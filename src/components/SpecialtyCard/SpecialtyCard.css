@@ -1,0 +1,23 @@
+.specialty-card__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.specialty-card__each {
+    margin: 1em;
+    text-align: center;
+    width: 60px;
+}
+
+.lang__icon {
+    font-size: var(--fs-h1);
+}
+
+@media (min-width: 800px) {
+    .specialty-card__each {
+        width: 70px;
+    }
+}

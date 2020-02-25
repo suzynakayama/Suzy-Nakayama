@@ -1,0 +1,11 @@
+.projects {
+    margin: 3em 1em;
+    padding-top: 1em;
+    height: 100vh;
+}
+
+.projects__title {
+    font-size: var(--fs-h2);
+    text-align: center;
+    margin-bottom: 2em;
+}

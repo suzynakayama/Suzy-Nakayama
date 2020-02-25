@@ -32,13 +32,9 @@
     font-size: var(--fs-h3);
 }
 
-/* .nav__link span :hover,
-.nav__link span :focus {
-    color: red;
+.is-current {
     background-color: var(--clr-accent);
-    opacity: 0.2%;
-} */
-
-.is-active {
-    background-color: var(--clr-accent);
+    padding: 5px;
+    border-radius: 5%;
+    color: var(--clr-light);
 }

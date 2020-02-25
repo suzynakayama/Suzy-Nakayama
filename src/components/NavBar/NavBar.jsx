@@ -1,10 +1,10 @@
 import React from "react";
-import ScrollspyNav from "react-scrollspy-nav";
+import Scrollspy from "react-scrollspy";
 import "./NavBar.css";
 
 function NavBar(props) {
     return (
-        <div className="nav">
+        <nav className="nav">
             {props.theme === false ? (
                 <img
                     src="/images/Logo-black.png"
@@ -18,35 +18,33 @@ function NavBar(props) {
                     className="nav__logo"
                 />
             )}
-            <ScrollspyNav
-                scrollTargetIds={["home", "about", "projects", "contact"]}
-                activeNavClass="is-active"
-                scrollDuration="30"
-                headerBackground="true"
+            <Scrollspy
+                items={["home", "about", "projects", "contact"]}
+                currentClassName="is-current"
+                offset={0}
+                className="nav__list"
             >
-                <ul className="nav__list">
-                    <li className="nav__item">
-                        <a href="#intro" className="nav__link">
-                            <span>Home</span>
-                        </a>
-                    </li>
-                    <li className="nav__item">
-                        <a href="#about" className="nav__link">
-                            <span>About Me</span>
-                        </a>
-                    </li>
-                    <li className="nav__item">
-                        <a href="#projects" className="nav__link">
-                            <span>Project</span>
-                        </a>
-                    </li>
-                    <li className="nav__item">
-                        <a href="#contact" className="nav__link">
-                            <span>Contact</span>
-                        </a>
-                    </li>
-                </ul>
-            </ScrollspyNav>
+                <li className="nav__item">
+                    <a href="#intro" className="nav__link">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li className="nav__item">
+                    <a href="#about" className="nav__link">
+                        <span>About Me</span>
+                    </a>
+                </li>
+                <li className="nav__item">
+                    <a href="#projects" className="nav__link">
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li className="nav__item">
+                    <a href="#contact" className="nav__link">
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </Scrollspy>
             <div className="nav__theme">
                 {props.theme === false ? (
                     <i
@@ -60,7 +58,7 @@ function NavBar(props) {
                     ></i>
                 )}
             </div>
-        </div>
+        </nav>
     );
 }
 

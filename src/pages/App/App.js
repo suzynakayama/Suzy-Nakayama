@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import NavBar from "../../components/NavBar/NavBar";
 import Intro from "../Intro/Intro";
+import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
 import Footer from "../../components/Footer/Footer";
@@ -20,6 +21,8 @@ function App() {
         <div className={"App " + (nightMode ? "App--night-mode" : "")}>
             <NavBar theme={nightMode} toggleNightMode={toggleNightMode} />
             <Intro />
+            <About />
+            <Projects />
             <Footer />
         </div>
     );

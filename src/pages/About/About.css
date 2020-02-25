@@ -1,0 +1,47 @@
+.about {
+    margin: 0 1em;
+    padding-top: 2em;
+    background-color: inherit;
+    color: inherit;
+}
+
+.about__title {
+    text-align: center;
+    font-size: var(--fs-h2);
+}
+
+.about__text {
+    padding: 0 1em;
+}
+
+.about__specialties {
+    margin: 0 1em;
+    padding-top: 2em;
+}
+
+@media (min-width: 800px) {
+    .about__container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .about__text,
+    .about__specialties {
+        max-width: 45%;
+        padding: 0 0.6em;
+    }
+
+    .about__text p {
+        font-size: var(--fs-h3);
+    }
+
+    .about__line {
+        width: 2px;
+        height: 60vh;
+        margin-right: 10px;
+        background-color: var(--clr-accent);
+        transform: rotate(13deg);
+    }
+}
