@@ -21,12 +21,12 @@ function NavBar(props) {
             <ScrollspyNav
                 scrollTargetIds={["home", "about", "projects", "contact"]}
                 activeNavClass="is-active"
-                scrollDuration="600"
+                scrollDuration="30"
                 headerBackground="true"
             >
                 <ul className="nav__list">
                     <li className="nav__item">
-                        <a href="/" className="nav__link">
+                        <a href="#intro" className="nav__link">
                             <span>Home</span>
                         </a>
                     </li>

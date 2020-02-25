@@ -11,15 +11,19 @@
 .intro__title--first,
 .intro__title--last {
     font-size: var(--fs-h1);
+    padding-left: 0.5em;
 }
 .intro__subtitle {
     font-family: var(--ff-secondary);
     font-size: var(--fs-h3);
     text-transform: uppercase;
+    color: var(--clr-accent);
+    padding-left: 1em;
 }
 
 .intro__img {
     box-shadow: var(--box-shadow);
+    border-radius: 15%;
 }
 
 @media (min-width: 600px) {
