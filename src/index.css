@@ -6,8 +6,6 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 :root {
@@ -25,6 +23,9 @@
     --fs-h2: 2.25rem;
     --fs-h3: 1.15rem;
     --fs-body: 1rem;
+
+    --box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+        0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
 @media (min-width: 800px) {

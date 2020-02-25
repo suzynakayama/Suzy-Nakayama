@@ -1,9 +1,14 @@
-.App {
+.App,
+body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
-    line-height: 1.6px;
+    line-height: 1.6em;
     background-color: var(--clr-light);
     color: var(--clr-dark);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 .App--night-mode {
@@ -14,10 +19,4 @@
 img {
     display: block;
     max-width: 100%;
-}
-
-.just {
-    height: 80vh;
-    width: 100vw;
-    background-color: inherit;
 }

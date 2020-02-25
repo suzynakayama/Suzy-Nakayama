@@ -1,13 +1,14 @@
 .footer {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     height: 10em;
     font-size: var(--fs-h3);
     font-family: "Charm", cursive;
     text-align: center;
-    width: 130%;
+    /* width: 130%;
     margin-left: -15%;
-    margin-right: -15%;
+    margin-right: -15%; */
+    margin-top: 2em;
     padding: 2.5em 0 0;
     border-radius: 300vh 300vh 0% 0% / 20vh 20vh 0% 0%;
     background-color: var(--clr-accent);
@@ -29,7 +30,8 @@
     justify-content: center;
     align-items: flex-end;
     height: 3.5em;
-    margin: 2em 0 0;
+    margin: 0 auto;
+    margin-left: -3em;
 }
 
 .social-list__item {
