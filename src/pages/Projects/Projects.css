@@ -1,7 +1,7 @@
 .projects {
     margin: 3em 1em;
     padding-top: 1em;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .projects__title {

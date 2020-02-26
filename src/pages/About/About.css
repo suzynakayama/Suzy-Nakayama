@@ -19,7 +19,22 @@
     padding-top: 2em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 715px) {
+    .about {
+        min-height: 100vh;
+    }
+
+    .about__container {
+        padding: 3em;
+    }
+
+    .about__specialties {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1450px) {
     .about__container {
         display: flex;
         flex-wrap: nowrap;
@@ -30,7 +45,7 @@
     .about__text,
     .about__specialties {
         max-width: 45%;
-        padding: 0 0.6em;
+        margin: 0 3em;
     }
 
     .about__text p {
