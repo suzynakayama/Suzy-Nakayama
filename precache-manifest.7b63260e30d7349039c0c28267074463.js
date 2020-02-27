@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8be01b72dad3fa019a247ccd1c42876",
+    "revision": "b6724b62b37e54aa5e0a79b120dda433",
     "url": "/Suzy-Nakayama/index.html"
   },
   {
-    "revision": "85a498d2fdafa08a6c53",
+    "revision": "a72404bf8fae01ef71cf",
     "url": "/Suzy-Nakayama/static/css/main.0a2cb4b5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Suzy-Nakayama/static/js/2.71715ac2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85a498d2fdafa08a6c53",
-    "url": "/Suzy-Nakayama/static/js/main.0c0d185d.chunk.js"
+    "revision": "a72404bf8fae01ef71cf",
+    "url": "/Suzy-Nakayama/static/js/main.82e71db1.chunk.js"
   },
   {
     "revision": "c60e40faeac885b46a55",
