@@ -15,6 +15,7 @@
     font-size: var(--fs-h2);
     color: inherit;
     text-align: center;
+    line-height: 1.6em;
 }
 
 .project__img {

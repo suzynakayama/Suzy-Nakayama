@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProjectsData from "../../data/ProjectsData";
 import "./OneProject.css";
 import "../../components/NavBar/NavBar.css";
@@ -7,6 +7,10 @@ import { Link } from "react-router-dom";
 function OneProject(props) {
     let data = ProjectsData;
     let project = data[props.match.params.id];
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
 
     return (
         <>
