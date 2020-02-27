@@ -28,9 +28,7 @@
     font-family: var(--ff-secondary);
     font-size: var(--fs-h3);
     text-transform: uppercase;
-    color: var(--clr-accent);
-    text-shadow: -0.5px 0 var(--clr-light), 0 0.5px var(--clr-light),
-        0.5px 0 var(--clr-light), 0 -0.8px var(--clr-light);
+    color: var(--clr-light);
 }
 
 .intro__img {
