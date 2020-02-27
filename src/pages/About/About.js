@@ -9,19 +9,23 @@ function About() {
             <div className="about__container">
                 <div className="about__text">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Modi soluta quibusdam deserunt qui ullam
-                        praesentium voluptas veritatis quia voluptates, ipsam
-                        quisquam, minima earum quos ut dolores repellat, aliquid
-                        autem beatae?
+                        Hi, my name is Suzy Nakayama, I graduated from General
+                        Assembly <strong>Software Engineering Immersive</strong>{" "}
+                        program and I am a creative full-stack developer that
+                        translates the geekiness behind your ideas bringing to
+                        life an aesthetically pleasing and fluid app for your
+                        users.
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Modi soluta quibusdam deserunt qui ullam
-                        praesentium voluptas veritatis quia voluptates, ipsam
-                        quisquam, minima earum quos ut dolores repellat, aliquid
-                        autem beatae?
+                        With a background in intellectual property law and
+                        culinary, I am a team player that enjoys working in
+                        positive and organized environments that brings me
+                        challenges and opportunities to learn, grow, and improve
+                        while also creating and delivering.
                     </p>
+                    <h3 className="about__text--phrase">
+                        Learning is my hobby and creating is my passion.
+                    </h3>
                 </div>
                 <div className="about__line"></div>
                 <div className="about__specialties">

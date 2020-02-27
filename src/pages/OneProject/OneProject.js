@@ -11,19 +11,21 @@ function OneProject(props) {
     return (
         <>
             <nav className="nav">
-                {props.nightMode === false ? (
-                    <img
-                        src="/images/Logo-black.png"
-                        alt="logo"
-                        className="nav__logo"
-                    />
-                ) : (
-                    <img
-                        src="/images/Logo-white.png"
-                        alt="logo"
-                        className="nav__logo"
-                    />
-                )}
+                <Link to="/" className="nav__link">
+                    {props.nightMode === false ? (
+                        <img
+                            src="/images/Logo-black.png"
+                            alt="logo"
+                            className="nav__logo"
+                        />
+                    ) : (
+                        <img
+                            src="/images/Logo-white.png"
+                            alt="logo"
+                            className="nav__logo"
+                        />
+                    )}
+                </Link>
                 <ul className="nav__list--special">
                     <Link to="/" className="nav__link">
                         <li className="nav__item">Home</li>

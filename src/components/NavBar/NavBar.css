@@ -24,6 +24,7 @@
     align-items: center;
     width: 78vw;
     list-style: none;
+    padding: 0;
 }
 
 .nav__link {

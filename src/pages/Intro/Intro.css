@@ -2,23 +2,35 @@
     position: relative;
     background-color: inherit;
     color: inherit;
-    width: 70%;
-    margin: 0 auto;
+
     margin-top: 3.5em;
     padding-top: 2em;
+    background-image: url("/images/computer.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro__container {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 2em;
 }
 
 .intro__title--first,
 .intro__title--last {
     font-size: var(--fs-h1);
     padding-left: 0.5em;
+    color: var(--clr-light);
 }
 .intro__subtitle {
     font-family: var(--ff-secondary);
     font-size: var(--fs-h3);
     text-transform: uppercase;
     color: var(--clr-accent);
-    padding-left: 1em;
+    text-shadow: -0.5px 0 var(--clr-light), 0 0.5px var(--clr-light),
+        0.5px 0 var(--clr-light), 0 -0.8px var(--clr-light);
 }
 
 .intro__img {
@@ -26,41 +38,31 @@
     border-radius: 15%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .intro {
-        width: 70%;
         height: 100vh;
-        margin: 10em auto 0;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* grid-template-areas:
-            "title1 img"
-            "title2 img"
-            "subtitle img";
-        grid-template-rows: repeat(3, 220px);
-        grid-gap: 1em; */
     }
 
     .intro__container {
         display: grid;
+        grid-gap: 2em;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 500px;
         min-width: 80%;
+        margin: 0 auto;
     }
 
     .intro__titles {
         grid-column: 1 / 2;
         display: grid;
         grid-template-rows: repeat(3, 100px);
-        object-fit: cover;
+        justify-self: flex-end;
     }
 
     .intro__img {
-        /* grid-area: img;
-        height: 80%;
-        min-width: 250px;
-        position: relative; */
         min-width: 300px;
         height: 650px;
         grid-column: 2 / 3;
@@ -68,32 +70,21 @@
     }
 
     .intro__title--first {
-        /* grid-area: title1;
-        align-self: end;
-        text-align: left;
-        margin-left: 50px;
-        margin-bottom: -10px; */
         grid-row: 1 / 2;
         text-align: left;
         align-self: end;
         margin: 0;
+        padding: 0;
     }
     .intro__title--last {
-        /* grid-area: title2;
-        text-align: right; */
         grid-row: 2 / 3;
         text-align: center;
         height: max-content;
     }
 
     .intro__subtitle {
-        /* grid-area: subtitle;
-        align-self: start;
-        text-align: center;
-        margin-top: -100px; */
         grid-row: 3 / 4;
         text-align: left;
         align-self: end;
-        margin-left: 15%;
     }
 }

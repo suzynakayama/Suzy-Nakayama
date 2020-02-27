@@ -9,10 +9,11 @@ body {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    letter-spacing: 1.2px;
 }
 
 .App--night-mode {
-    background-color: var(--clr-dark);
+    background-color: var(--clr-dark-mode);
     color: var(--clr-light);
 }
 

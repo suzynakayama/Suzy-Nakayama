@@ -21,7 +21,6 @@
     max-width: 90%;
     max-height: 550px;
     margin: 1.5em auto;
-    border: 1px solid var(--clr-dark);
     border-radius: 5%;
     box-shadow: var(--box-shadow);
 }

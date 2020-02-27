@@ -7,7 +7,7 @@ let projectsData = [
         description:
             "This is a MERN stack Single Page App (SPA) where the user can create his account, plan a trip, search for places to visit and create daily itineraries.",
         technologies:
-            "React, Javascript, CSS, Bootstrap, Node.js, Express, MongoDb and Mongoose."
+            "React, React Hooks, Redux, Javascript, CSS, Bootstrap, Node.js, Express, MongoDb and Mongoose."
     },
     {
         name: "Jobbly",
