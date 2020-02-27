@@ -1,10 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { Route, Switch, Redirect } from "react-router-dom";
-import NavBar from "../../components/NavBar/NavBar";
-import Intro from "../Intro/Intro";
-import About from "../About/About";
-import Projects from "../Projects/Projects";
-import Contact from "../Contact/Contact";
+import React, { useState } from "react";
+import { Route, Switch } from "react-router-dom";
+import Main from "../Main/Main";
+import OneProject from "../OneProject/OneProject";
 import Footer from "../../components/Footer/Footer";
 import "./App.css";
 
@@ -19,11 +16,29 @@ function App() {
 
     return (
         <div className={"App " + (nightMode ? "App--night-mode" : "")}>
-            <NavBar theme={nightMode} toggleNightMode={toggleNightMode} />
-            <Intro />
-            <About />
-            <Projects />
-            <Contact />
+            <Switch>
+                <Route
+                    exact
+                    path="/"
+                    render={() => (
+                        <Main
+                            nightMode={nightMode}
+                            toggleNightMode={toggleNightMode}
+                        />
+                    )}
+                />
+                <Route
+                    exact
+                    path="/:id"
+                    render={props => (
+                        <OneProject
+                            {...props}
+                            nightMode={nightMode}
+                            toggleNightMode={toggleNightMode}
+                        />
+                    )}
+                />
+            </Switch>
             <Footer />
         </div>
     );

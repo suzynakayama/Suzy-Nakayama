@@ -6,17 +6,17 @@ export default function Footer() {
         <div className="footer">
             <p>
                 <span className="footer__span">Developed by</span>
-                &nbsp;Suzy Yume&nbsp;
+                &nbsp;Suzy Nakayama&nbsp;
             </p>
             <ul className="social-list">
                 <li className="social-list__item">
                     <a
                         className="social-list__link"
-                        href="mailto:suzy.nakayama@gmail.com"
+                        href="files/suzynakayama.pdf"
                         target="_blank"
                         rel="noreferrer noopener"
                     >
-                        <i className="fas fa-at"></i>
+                        <i className="far fa-file"></i>
                     </a>
                 </li>
                 <li className="social-list__item">

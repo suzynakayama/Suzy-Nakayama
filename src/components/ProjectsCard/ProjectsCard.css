@@ -37,27 +37,35 @@
     margin: 0 auto;
 }
 
+.project-card__link {
+    text-decoration-style: double;
+    text-decoration-color: var(--clr-accent);
+    display: block;
+    width: 100%;
+}
+
 .project-card__name {
     color: var(--clr-light);
     font-size: var(--fs-h3);
     font-weight: var(--fw-bold);
-    display: block;
     margin: 4px auto;
-    padding-top: 6px;
-    width: 100%;
     text-align: center;
+}
+
+.project-card__sites {
+    display: block;
 }
 
 .project-card__url,
 .project-card__code {
     color: var(--clr-light);
     display: inline;
-    margin-bottom: 10px;
+    margin: 15px;
 }
 
 @media (min-width: 800px) {
     .project-card__each {
-        margin: 1em;
+        margin: 3em 1em;
         max-width: 350px;
         min-width: 230px;
         height: 200px;

@@ -1,0 +1,72 @@
+.nav__list--special {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 78vw;
+    list-style: none;
+}
+
+.project {
+    margin: 3.5em 1em 1em;
+    padding: 1em;
+}
+
+.project__name {
+    font-size: var(--fs-h2);
+    color: inherit;
+    text-align: center;
+}
+
+.project__img {
+    max-width: 90%;
+    max-height: 550px;
+    margin: 1.5em auto;
+    border: 1px solid var(--clr-dark);
+    border-radius: 5%;
+    box-shadow: var(--box-shadow);
+}
+
+.project__description,
+.project__tech,
+.project__url,
+.project__code {
+    font-size: var(--fs-body);
+}
+
+.project__tech--title {
+    text-align: center;
+    font-size: var(--fs-h3);
+}
+
+.project__url,
+.project__code {
+    display: block;
+    text-align: center;
+    color: inherit;
+}
+
+.project__url {
+    margin-bottom: 1em;
+}
+
+@media (min-width: 1250px) {
+    .project {
+        margin: 3.5em 3em 1.5em;
+        padding: 3em;
+        text-align: center;
+    }
+
+    .project__img {
+        max-width: 70%;
+        margin: 4em auto;
+    }
+
+    .project__tech--title {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .project__url {
+        margin: 2em auto;
+    }
+}

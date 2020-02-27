@@ -1,6 +1,7 @@
 import React from "react";
 import "./ProjectsCard.css";
 import projectsData from "../../data/ProjectsData";
+import { Link } from "react-router-dom";
 
 function ProjectsCard() {
     let data = projectsData;
@@ -16,16 +17,29 @@ function ProjectsCard() {
                             alt={project.name}
                         />
                         <figcaption className="project-card__figcaption">
-                            <p className="project-card__name">{project.name}</p>
-                            <a className="project-card__url" href={project.url}>
-                                Website
-                            </a>
-                            <a
-                                className="project-card__code"
-                                href={project.git}
-                            >
-                                Code
-                            </a>
+                            <Link to={`/${idx}`} className="project-card__link">
+                                <p className="project-card__name">
+                                    {project.name}
+                                </p>
+                            </Link>
+                            <div className="project-card__sites">
+                                <a
+                                    className="project-card__url"
+                                    href={project.url}
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
+                                    Website
+                                </a>
+                                <a
+                                    className="project-card__code"
+                                    href={project.git}
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
+                                    Code
+                                </a>
+                            </div>
                         </figcaption>
                     </figure>
                 );
