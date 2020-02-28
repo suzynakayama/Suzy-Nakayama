@@ -77,6 +77,10 @@
     box-shadow: 2px 2px 4px #bbb;
 }
 
+.contact__form--submit:focus {
+    outline: none;
+}
+
 @media (min-width: 600px) {
     .contact__form {
         width: 80%;

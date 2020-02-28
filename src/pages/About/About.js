@@ -9,9 +9,9 @@ function About() {
             <div className="about__container">
                 <div className="about__text">
                     <p>
-                        Hi, my name is Suzy Nakayama, I graduated from General
+                        Hi, I'm Suzy Nakayama and I graduated from General
                         Assembly <strong>Software Engineering Immersive</strong>{" "}
-                        program and I am a creative full-stack developer that
+                        program. I am a creative full-stack developer that
                         translates the geekiness behind your ideas bringing to
                         life an aesthetically pleasing and fluid app for your
                         users.
