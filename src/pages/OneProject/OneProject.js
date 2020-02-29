@@ -36,7 +36,7 @@ function OneProject(props) {
                     </Link>
                 </ul>
                 <div className="nav__theme">
-                    {props.theme === false ? (
+                    {props.nightMode === false ? (
                         <i
                             className="fas fa-moon"
                             onClick={props.toggleNightMode}

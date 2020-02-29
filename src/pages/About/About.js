@@ -17,8 +17,8 @@ function About() {
                         users.
                     </p>
                     <p>
-                        With a background in intellectual property law and
-                        culinary, I am a team player that enjoys working in
+                        My background in intellectual property law and culinary
+                        allows me to be a team player who enjoys working in
                         positive and organized environments that brings me
                         challenges and opportunities to learn, grow, and improve
                         while also creating and delivering.
