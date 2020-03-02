@@ -52,6 +52,20 @@ let languagesData = [
     {
         name: "Django",
         icon: <i className="devicon-django-plain colored lang__icon"></i>
+    },
+    {
+        name: "Heroku",
+        icon: <i className="devicon-heroku-plain colored lang__icon"></i>
+    },
+    {
+        name: "Amazon Web Services",
+        icon: (
+            <i className="devicon-amazonwebservices-original colored lang__icon"></i>
+        )
+    },
+    {
+        name: "Git",
+        icon: <i className="devicon-git-plain colored lang__icon"></i>
     }
 ];
 
