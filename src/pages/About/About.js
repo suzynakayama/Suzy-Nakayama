@@ -12,16 +12,15 @@ function About() {
                         Hi, I'm Suzy Nakayama and I graduated from General
                         Assembly <strong>Software Engineering Immersive</strong>{" "}
                         program. I am a creative full-stack developer that
-                        translates the geekiness behind your ideas bringing to
-                        life an aesthetically pleasing and fluid app for your
-                        users.
+                        translates the geekiness behind ideas bringing to life
+                        an aesthetically pleasing and fluid app for users.
                     </p>
                     <p>
                         My background in intellectual property law and culinary
-                        allows me to be a team player who enjoys working in
-                        positive and organized environments that brings me
-                        challenges and opportunities to learn, grow, and improve
-                        while also creating and delivering.
+                        allows me to be an organized and focused team player
+                        that collaborate for a positive environment seeking for
+                        challenges and opportunities to grow and improve, while
+                        also developing and delivering.
                     </p>
                     <h3 className="about__text--phrase">
                         Learning is my hobby and creating is my passion.
