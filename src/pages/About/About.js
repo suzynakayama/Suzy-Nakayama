@@ -17,10 +17,12 @@ function About() {
                     </p>
                     <p>
                         My background in intellectual property law and culinary
-                        allows me to be an organized and focused team player
-                        that collaborate for a positive environment seeking for
-                        challenges and opportunities to grow and improve, while
-                        also developing and delivering.
+                        improved my ability to articulate in a business context
+                        and to provide creative solutions. This allows me to be
+                        an organized and focused team player that collaborate
+                        for a positive environment seeking for challenges and
+                        opportunities to grow and improve, while also developing
+                        and delivering.
                     </p>
                     <h3 className="about__text--phrase">
                         Learning is my hobby and creating is my passion.
