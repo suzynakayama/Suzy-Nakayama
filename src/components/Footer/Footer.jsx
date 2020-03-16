@@ -12,11 +12,11 @@ export default function Footer() {
                 <li className="social-list__item">
                     <a
                         className="social-list__link"
-                        href="files/suzynakayama.pdf"
+                        href="files/suzynakayama.docx"
                         target="_blank"
                         rel="noreferrer noopener"
                     >
-                        <i className="far fa-file"></i>
+                        <i class="far fa-file-word"></i>
                     </a>
                 </li>
                 <li className="social-list__item">
