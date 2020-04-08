@@ -5,43 +5,44 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 :root {
-    --ff-primary: "Signika", "Roboto", sans-serif;
-    --ff-secondary: "Tomorrow", "Roboto", sans-serif;
+	--ff-primary: "Signika", "Roboto", sans-serif;
+	--ff-secondary: "Tomorrow", "Roboto", sans-serif;
 
-    --fw-regular: 400;
-    --fw-bold: 700;
+	--fw-regular: 400;
+	--fw-bold: 700;
 
-    --clr-light: #fff;
-    --clr-dark: rgb(5, 13, 24);
-    --clr-dark-mode: rgb(33, 46, 65);
-    --clr-accent: rgb(0, 31, 170);
+	--clr-light: #fff;
+	--clr-dark: rgb(5, 13, 24);
+	--clr-dark-mode: rgb(33, 46, 65);
+	--clr-accent: rgb(0, 31, 170);
 
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.15rem;
-    --fs-body: 1rem;
+	--fs-h1: 3rem;
+	--fs-h2: 2.25rem;
+	--fs-h3: 1.15rem;
+	--fs-body: 1rem;
 
-    --box-shadow: 0.25em 0.25em 0.75em #aaa, 0.125em 0.125em 0.25em #bbb;
+	--box-shadow: 0.25em 0.25em 0.75em rgba(170, 170, 170, 0.65),
+		0.125em 0.125em 0.25em rgba(187, 187, 187, 0.65);
 }
 
 @media (max-width: 390px) {
-    :root {
-        --fs-h1: 2.6rem;
-        --fs-h2: 1.5rem;
-        --fs-h3: 0.9rem;
-        --fs-body: 0.75rem;
-    }
+	:root {
+		--fs-h1: 2.6rem;
+		--fs-h2: 1.5rem;
+		--fs-h3: 0.9rem;
+		--fs-body: 0.75rem;
+	}
 }
 
 @media (min-width: 800px) {
-    :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
-    }
+	:root {
+		--fs-h1: 4.5rem;
+		--fs-h2: 3.75rem;
+		--fs-h3: 1.5rem;
+		--fs-body: 1.125rem;
+	}
 }

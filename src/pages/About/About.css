@@ -1,69 +1,68 @@
 .about {
-    margin: 0 1em;
-    padding-top: 4em;
-    background-color: inherit;
-    color: inherit;
+	margin: 0 1em;
+	padding-top: 4em;
+	background-color: inherit;
+	color: inherit;
 }
 
 .about__title {
-    text-align: center;
-    font-size: var(--fs-h2);
+	text-align: center;
+	font-size: var(--fs-h2);
 }
 
 .about__text {
-    padding: 0 1em;
-    font-size: var(--fs-body);
+	padding: 0 1em;
+	font-size: var(--fs-body);
 }
 
 .about__text--phrase {
-    font-size: var(--fs-h3);
-    text-align: center;
-    margin-top: 2em;
+	font-size: var(--fs-h3);
+	text-align: center;
+	margin-top: 2em;
 }
 
 .about__specialties {
-    margin: 0 1em;
-    padding-top: 2em;
+	margin: 0 1em;
+	padding-top: 2em;
 }
 
 @media (min-width: 715px) {
-    .about {
-        min-height: 100vh;
-    }
+	.about {
+		min-height: 100vh;
+	}
 
-    .about__container {
-        padding: 3em;
-    }
+	.about__container {
+		padding: 3em;
+	}
 
-    .about__specialties {
-        width: 60%;
-        margin: 0 auto;
-    }
+	.about__specialties {
+		width: 60%;
+		margin: 0 auto;
+	}
 }
 
 @media (min-width: 1450px) {
-    .about__container {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        align-items: center;
-    }
+	.about__container {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+		align-items: center;
+	}
 
-    .about__text,
-    .about__specialties {
-        max-width: 45%;
-        margin: 0 3em;
-    }
+	.about__text,
+	.about__specialties {
+		max-width: 45%;
+		margin: 0 3em;
+	}
 
-    .about__text p {
-        font-size: var(--fs-h3);
-    }
+	.about__text p {
+		font-size: var(--fs-h3);
+	}
 
-    .about__line {
-        width: 2px;
-        height: 60vh;
-        margin-right: 10px;
-        background-color: var(--clr-accent);
-        transform: rotate(13deg);
-    }
+	.about__line {
+		width: 2px;
+		height: 65vh;
+		margin-right: 10px;
+		background-color: var(--clr-accent);
+	}
 }
