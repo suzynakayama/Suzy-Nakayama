@@ -3,91 +3,99 @@ import emailjs from "emailjs-com";
 import "./Contact.css";
 
 function Contact() {
-    const [message, setMessage] = useState({
-        name: "",
-        email: "",
-        msg: ""
-    });
+	const [message, setMessage] = useState({
+		name: "",
+		email: "",
+		msg: "",
+	});
 
-    let resetForm = () => {
-        setMessage({
-            name: "",
-            email: "",
-            msg: ""
-        });
-    };
+	let resetForm = () => {
+		setMessage({
+			name: "",
+			email: "",
+			msg: "",
+		});
+	};
 
-    let handleChange = evt => {
-        setMessage({
-            ...message,
-            [evt.target.name]: [evt.target.value]
-        });
-    };
+	let handleChange = (evt) => {
+		setMessage({
+			...message,
+			[evt.target.name]: [evt.target.value],
+		});
+	};
 
-    let handleSubmit = evt => {
-        evt.preventDefault();
-        let templateParams = {
-            user_name: message.name,
-            user_email: message.email,
-            to_name: process.env.REACT_APP_EMAILJS_RECEIVER,
-            message_html:
-                message.msg +
-                `   From: ${message.name}     Email: ${message.email}`
-        };
-        emailjs.send(
-            "gmail",
-            process.env.REACT_APP_EMAILJS_TEMPLATEID,
-            templateParams,
-            process.env.REACT_APP_EMAILJS_USERID
-        );
-        resetForm();
-    };
+	let handleSubmit = (evt) => {
+		evt.preventDefault();
+		let templateParams = {
+			user_name: message.name,
+			user_email: message.email,
+			to_name: process.env.REACT_APP_EMAILJS_RECEIVER,
+			message_html:
+				message.msg + `   From: ${message.name}     Email: ${message.email}`,
+		};
+		emailjs.send(
+			"gmail",
+			process.env.REACT_APP_EMAILJS_TEMPLATEID,
+			templateParams,
+			process.env.REACT_APP_EMAILJS_USERID
+		);
+		resetForm();
+	};
 
-    return (
-        <div className="contact" id="contact">
-            <form className="contact__form" onSubmit={handleSubmit}>
-                <h2 className="contact__form--title">Let's chat!</h2>
-                <p className="contact__form--text">
-                    Fill out below and I'll do my best to get back to you as
-                    soon as I can! &nbsp;&nbsp;&nbsp;
-                    <i className="far fa-smile-wink"></i>
-                </p>
-                <div className="contact__form--form">
-                    <label className="contact__label--name">Name:</label>
-                    <input
-                        className="contact__input--name"
-                        name="name"
-                        type="text"
-                        value={message.name}
-                        onChange={handleChange}
-                    ></input>
-                    <label className="contact__label--email">Email:</label>
-                    <input
-                        className="contact__input--email"
-                        name="email"
-                        type="email"
-                        value={message.email}
-                        onChange={handleChange}
-                    ></input>
-                    <label className="contact__label--msg">Message</label>
-                    <textarea
-                        className="contact__input--msg"
-                        name="msg"
-                        rows="10"
-                        cols="100"
-                        value={message.msg}
-                        onChange={handleChange}
-                    ></textarea>
-                </div>
-                <input
-                    type="submit"
-                    className="contact__form--submit"
-                    value="Send"
-                    onSubmit={handleSubmit}
-                />
-            </form>
-        </div>
-    );
+	return (
+		<div className="contact" id="contact">
+			<form className="contact__form" onSubmit={handleSubmit}>
+				<h2 className="contact__form--title">Let's chat!</h2>
+				<p className="contact__form--text">
+					Fill out below and I'll do my best to get back to you as soon as I
+					can! &nbsp;&nbsp;&nbsp;
+					<i className="far fa-smile-wink"></i>
+				</p>
+				<div className="contact__form--form">
+					<label className="contact__label--name" for="name">
+						Name:
+					</label>
+					<input
+						className="contact__input--name"
+						name="name"
+						id="name"
+						type="text"
+						value={message.name}
+						onChange={handleChange}
+					></input>
+					<label className="contact__label--email" for="email">
+						Email:
+					</label>
+					<input
+						className="contact__input--email"
+						name="email"
+						id="email"
+						type="email"
+						value={message.email}
+						onChange={handleChange}
+					></input>
+					<label className="contact__label--msg" for="msg">
+						Message
+					</label>
+					<textarea
+						className="contact__input--msg"
+						name="msg"
+						id="msg"
+						rows="10"
+						cols="100"
+						value={message.msg}
+						onChange={handleChange}
+					></textarea>
+				</div>
+				<input
+					type="submit"
+					className="contact__form--submit"
+					value="Send"
+					onSubmit={handleSubmit}
+				/>
+			</form>
+		</div>
+	);
 }
 
 export default Contact;

@@ -73,6 +73,7 @@ let languagesData = [
 			<img
 				className="lang__icon"
 				src="https://img.icons8.com/color/96/000000/firebase.png"
+				alt="firebase icon"
 			/>
 		),
 	},
@@ -86,6 +87,7 @@ let languagesData = [
 			<img
 				className="lang__icon"
 				src="https://img.icons8.com/color/96/000000/redux.png"
+				alt="redux icon"
 			/>
 		),
 	},
