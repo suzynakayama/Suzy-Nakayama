@@ -23,7 +23,7 @@ function NavBar(props) {
             <Scrollspy
                 items={["home", "about", "projects", "contact"]}
                 currentClassName="is-current"
-                offset={-1}
+                offset={0}
                 className="nav__list"
             >
                 <li className="nav__item"></li>
@@ -43,7 +43,7 @@ function NavBar(props) {
                     </a>
                 </li>
             </Scrollspy>
-            <div className="nav__theme">
+            <button className="nav__theme">
                 {props.theme === false ? (
                     <i
                         className="fas fa-moon"
@@ -55,7 +55,7 @@ function NavBar(props) {
                         onClick={props.toggleNightMode}
                     ></i>
                 )}
-            </div>
+            </button>
         </nav>
     );
 }

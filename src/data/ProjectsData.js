@@ -1,5 +1,13 @@
 let projectsData = [
     {
+        name: "Footer NPM Package",
+        image: "/images/npm-logo.png",
+        url: "https://www.npmjs.com/package/myfooter",
+        git: "https://github.com/suzynakayama/myfooter-package",
+        description: "React Component NPM Package with my footer, to be easier to use on my react projects.",
+        technologies: "Tech: CSS, React, Typescript, Webpack, and Babel."
+    },
+    {
         name: "The Path",
         image: "/images/path.jpeg",
         url: "https://the-path.herokuapp.com/",

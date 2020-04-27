@@ -40,3 +40,15 @@
 	border-radius: 5%;
 	color: var(--clr-light);
 }
+
+.nav__theme {
+	color: inherit;
+	background-color: transparent;
+	border: none;
+	font-size: var(--fs-h3);
+	cursor: pointer;
+}
+
+.nav__theme:focus {
+	outline: none;
+}
