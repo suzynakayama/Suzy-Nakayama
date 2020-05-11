@@ -56,7 +56,9 @@ function OneProject(props) {
                     src={project.image}
                     alt={project.name}
                 />
-                <p className="project__description">{project.description}</p>
+                <p className="project__description">{ project.description }</p>
+                <h3 className="project__challenges--title">Challenges:</h3>
+                <p className="project__description">{ project.difficulties }</p>
                 <h3 className="project__tech--title">Technologies:</h3>
                 <p className="project__tech">{project.technologies}</p>
                 <a

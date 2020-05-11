@@ -82,7 +82,7 @@ function Contact() {
             name="msg"
             id="msg"
             rows="10"
-            cols="100"
+            cols="50"
             value={message.msg}
             onChange={handleChange}
           ></textarea>
