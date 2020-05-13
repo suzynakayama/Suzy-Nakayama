@@ -36,8 +36,8 @@
 
 .is-current {
 	background-color: var(--clr-accent);
-	padding: 5px;
-	border-radius: 5%;
+	padding: 4px 8px;
+	border-radius: 20px;
 	color: var(--clr-light);
 }
 
