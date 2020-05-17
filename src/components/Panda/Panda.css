@@ -2,7 +2,7 @@
   width: 400px;
   height: 550px;
   transition: all 1s;
-  transform: translateX(-105%) translateY(105%);
+  transform: translateX(-105%) translateY(90%);
 }
 
 .show {

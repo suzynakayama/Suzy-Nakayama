@@ -45,17 +45,8 @@ function Contact() {
 		resetForm();
 	};
 
-  const handleShow = isVisible => {
-    console.log('k', isVisible)
-    setTimeout(() => {
-      showPanda(isVisible)
-    }, 1500)
-  }
-
 	return (
     <div className="contact" id="contact">
-      {" "}
-      {console.log(panda)}
       <TrackVisibility>
         <Panda className="panda" />
       </TrackVisibility>
