@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import TrackVisibility from "react-on-screen";
 import "./Contact.css";
+import { Panda } from '../../components/Panda/Panda';
 
 function Contact() {
 	const [message, setMessage] = useState({
 		name: "",
 		email: "",
 		msg: "",
-	});
+  });
+  const [panda, showPanda] = useState(false)
 
 	let resetForm = () => {
 		setMessage({
@@ -42,8 +45,20 @@ function Contact() {
 		resetForm();
 	};
 
+  const handleShow = isVisible => {
+    console.log('k', isVisible)
+    setTimeout(() => {
+      showPanda(isVisible)
+    }, 1500)
+  }
+
 	return (
     <div className="contact" id="contact">
+      {" "}
+      {console.log(panda)}
+      <TrackVisibility>
+        <Panda className="panda" />
+      </TrackVisibility>
       <form className="contact__form" onSubmit={handleSubmit}>
         <h2 className="contact__form--title">Let's chat!</h2>
         <p className="contact__form--text">

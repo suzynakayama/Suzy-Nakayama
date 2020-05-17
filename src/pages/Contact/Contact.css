@@ -80,6 +80,10 @@
 	box-shadow: 2px 2px 4px rgba(187, 187, 187, 0.45);
 }
 
+.panda {
+	display: none;
+}
+
 @media (min-width: 600px) {
 	.contact__form {
 		width: 80%;
@@ -101,5 +105,11 @@
 		color: var(--clr-light);
 		border: 1px solid var(--clr-light);
 		cursor: pointer;
+	}
+
+	.panda {
+		display: block;
+		position: absolute;
+		z-index: 10;
 	}
 }
