@@ -35,10 +35,7 @@
 }
 
 .is-current {
-	background-color: var(--clr-accent);
-	padding: 4px 8px;
-	border-radius: 20px;
-	color: var(--clr-light);
+	border-bottom: 4px solid  var(--clr-accent);
 }
 
 .nav__theme {
