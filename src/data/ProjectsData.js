@@ -1,5 +1,17 @@
 let projectsData = [
   {
+    name: "Code Mentoring",
+    image: "/images/cm.png",
+    url: "https://codementoring.co/",
+    git: "https://github.com/code-mentoring/learn",
+    description:
+      "Code Mentoring is an international community that provides mentoring, coaching and a welcoming platform for developers of all levels to improve their skills. We are creating the “duolingo” (learning platform) for coding. Note: the project is on progress.",
+    difficulties:
+      "This is a great project where I am being able to improve, not only my technology knowledge, but also my leadership style. I am leading the frontend team throughout this project with month-long sprints and regular meetings to coordinate the project's features/bugs and how to prioritize them. Also working in collaboration with the project manager and designers to understand mock-ups and the flow of the entire site.",
+    technologies:
+      "NextJs, ReactJs, Typescript, GraphQL, Apollo, Styled Components, Lerna and Figma.",
+  },
+  {
     name: "Footer NPM Package",
     image: "/images/npm-logo.png",
     url: "https://www.npmjs.com/package/react-myfooter",
