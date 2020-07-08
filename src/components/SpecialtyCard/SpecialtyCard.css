@@ -9,15 +9,16 @@
 .specialty-card__each {
     margin: 1em;
     text-align: center;
-    width: 60px;
+    max-width: 150px;
+    min-width: 60px;
 }
 
 .lang__icon {
     font-size: var(--fs-h1);
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
     .specialty-card__each {
         width: 70px;
     }
-}
+} */

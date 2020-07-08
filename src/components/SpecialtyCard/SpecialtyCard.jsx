@@ -1,10 +1,7 @@
 import React from "react";
-import LanguagesData from "../../data/LanguagesData";
 import "./SpecialtyCard.css";
 
-export default function SpecialtyCard() {
-    let data = LanguagesData;
-
+export default function SpecialtyCard({data}) {
     return (
         <div className="specialty-card__container">
             {data.map((lang, idx) => {

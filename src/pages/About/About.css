@@ -21,9 +21,16 @@
 	margin-top: 2em;
 }
 
-.about__specialties {
+.about__specialties--container {
 	margin: 0 1em;
 	padding-top: 2em;
+}
+
+.about__specialties--title-left,
+.about__specialties--title-right {
+	text-align: center;
+	/* font-size: var(--fs-h3); */
+	font-weight: bold;
 }
 
 @media (min-width: 715px) {
@@ -32,27 +39,43 @@
 	}
 
 	.about__container {
-		padding: 3em;
+		padding: 2rem;
 	}
 
-	.about__specialties {
-		width: 60%;
+	.about__specialties--container {
+		width: 80%;
 		margin: 0 auto;
 	}
 }
 
 @media (min-width: 1450px) {
-	.about__container {
-		display: flex;
-		flex-wrap: nowrap;
-		justify-content: space-evenly;
-		align-items: center;
+	.about__specialties--container {
+		display: grid;
+		grid-template-columns: 49% 2% 49%;
 	}
 
-	.about__text,
-	.about__specialties {
-		max-width: 45%;
+	.about__text{
+		max-width: 75%;
+		margin: 0 auto;
+		margin-bottom: 3rem;
+		text-align: justify;
+	}
+
+	.about__specialties--left {
+		grid-column: 0/1;
+	}
+
+	.about__specialties--left,
+	.about__specialties--right {
 		margin: 0 3em;
+		padding: 0;
+		display: grid;
+		grid-template-rows: 80px auto;
+	}
+
+	.about__specialties--title-left,
+	.about__specialties--title-right  {
+		grid-row: 0/1;
 	}
 
 	.about__text p {

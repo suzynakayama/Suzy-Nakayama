@@ -10,7 +10,6 @@ function Contact() {
 		email: "",
 		msg: "",
   });
-  const [panda, showPanda] = useState(false)
 
 	let resetForm = () => {
 		setMessage({
