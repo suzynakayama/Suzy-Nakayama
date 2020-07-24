@@ -9,7 +9,7 @@ let projectsData = [
     difficulties:
       "This is a great project where I am being able to improve, not only my technology knowledge, but also my leadership style. I am leading the frontend team throughout this project with month-long sprints and regular meetings to coordinate the project's features/bugs and how to prioritize them. Also working in collaboration with the project manager and designers to understand mock-ups and the flow of the entire site.",
     technologies:
-      "NextJs, ReactJs, Typescript, GraphQL, Apollo, Styled Components, Lerna and Figma.",
+      "NextJs, ReactJs, Typescript, GraphQL, Apollo, Styled Components, Lerna, StoryBook and Figma.",
   },
   {
     name: "Footer NPM Package",

@@ -29,6 +29,10 @@
 		0.125em 0.125em 0.25em rgba(187, 187, 187, 0.65);
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 @media (max-width: 390px) {
 	:root {
 		--fs-h1: 2.6rem;

@@ -9,8 +9,11 @@
 .specialty-card__each {
     margin: 1em;
     text-align: center;
-    max-width: 150px;
-    min-width: 60px;
+    /* max-width: 150px;
+    min-width: 60px; */
+    width: 80px;
+    background: inherit;
+    color: inherit;
 }
 
 .lang__icon {
