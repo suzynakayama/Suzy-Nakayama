@@ -11,7 +11,6 @@ function App() {
     let toggleNightMode = () => {
         let isOn = !nightMode;
         setNightMode(isOn);
-        localStorage.setItem("nightMode", isOn);
     };
 
     return (

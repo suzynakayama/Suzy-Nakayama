@@ -19,6 +19,7 @@
 	font-size: var(--fs-h3);
 	text-align: center;
 	margin-top: 2em;
+	font-style: italic;
 }
 
 .about__specialties--container {
@@ -29,7 +30,6 @@
 .about__specialties--title-left,
 .about__specialties--title-right {
 	text-align: center;
-	/* font-size: var(--fs-h3); */
 	font-weight: bold;
 }
 

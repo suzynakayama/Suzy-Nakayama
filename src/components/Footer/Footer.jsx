@@ -15,6 +15,7 @@ export default function Footer() {
             href="files/suzynakayama.pdf"
             target="_blank"
             rel="noreferrer noopener"
+            aria-label="resume"
           >
             <i className="far fa-file-pdf"></i>
           </a>
@@ -25,6 +26,7 @@ export default function Footer() {
             href="https://www.instagram.com/suzyyume/"
             target="_blank"
             rel="noreferrer noopener"
+            aria-label="instagram"
           >
             <i className="fab fa-instagram"></i>
           </a>
@@ -35,6 +37,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/suzy-nakayama/"
             target="_blank"
             rel="noreferrer noopener"
+            aria-label="linkedin"
           >
             <i className="fab fa-linkedin"></i>
           </a>
@@ -45,6 +48,7 @@ export default function Footer() {
             href="https://github.com/suzynakayama"
             target="_blank"
             rel="noreferrer noopener"
+            aria-label="github"
           >
             <i className="fab fa-github"></i>
           </a>

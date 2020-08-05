@@ -12,6 +12,16 @@ let projectsData = [
       "NextJs, ReactJs, Typescript, GraphQL, Apollo, Styled Components, Lerna, StoryBook and Figma.",
   },
   {
+    name: "Yuki, the Chatbot!",
+    image: "/images/yuki.png",
+    url: "https://yuki-chatbot.herokuapp.com/",
+    git: "https://github.com/suzynakayama/chatbot",
+    description: "Chatbot created using the Botkit starter that won 1st place at MintBean's Hackathon.",
+    difficulties:
+      "I created this when I participated in MintBean's Hackathon. Since this was my first time creating a bot, I had a hard time at the beginning trying to understand how does the library works and what/where should I code in order to make the bot work and answer.",
+    technologies: "Tech: Botkit, Node, CSS.",
+  },
+  {
     name: "Footer NPM Package",
     image: "/images/npm-logo.png",
     url: "https://www.npmjs.com/package/react-myfooter",

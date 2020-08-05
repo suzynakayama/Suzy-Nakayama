@@ -67,7 +67,7 @@ function OneProject(props) {
                     target="_blank"
                     rel="noreferrer noopener"
                 >
-                    Check this project live here!
+                    Project LIVE
                 </a>
                 <a
                     className="project__code"
@@ -75,7 +75,7 @@ function OneProject(props) {
                     target="_blank"
                     rel="noreferrer noopener"
                 >
-                    Check this project code here!
+                    Project CODE
                 </a>
             </div>
         </>

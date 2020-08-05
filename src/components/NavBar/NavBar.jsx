@@ -43,7 +43,7 @@ function NavBar(props) {
                     </a>
                 </li>
             </Scrollspy>
-            <button className="nav__theme">
+            <button className="nav__theme" aria-label="theme changer">
                 {props.theme === false ? (
                     <i
                         className="fas fa-moon"

@@ -81,7 +81,7 @@ let languagesData = [
     {
       name: "Redux",
       icon: (
-        <i class="devicon-redux- lang__icon">
+        <i className="devicon-redux- lang__icon">
           <img src="/images/redux.svg" alt="redux" />
         </i>
       ),
