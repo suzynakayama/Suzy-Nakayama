@@ -16,7 +16,8 @@ let projectsData = [
     image: "/images/yuki.png",
     url: "https://yuki-chatbot.herokuapp.com/",
     git: "https://github.com/suzynakayama/chatbot",
-    description: "Chatbot created using the Botkit starter that won 1st place at MintBean's Hackathon.",
+    description:
+      "Chatbot created using the Botkit starter that won 1st place at MintBean's Hackathon.",
     difficulties:
       "I created this when I participated in MintBean's Hackathon. Since this was my first time creating a bot, I had a hard time at the beginning trying to understand how does the library works and what/where should I code in order to make the bot work and answer.",
     technologies: "Tech: Botkit, Node, CSS.",
@@ -58,13 +59,24 @@ let projectsData = [
   },
   {
     name: "Simon 2.0 World",
+    image: "/images/flappyIM.png",
+    url: "https://flappy-iron-man.netlify.app/",
+    git: "https://github.com/suzynakayama/flappy-iron-man-phaser",
+    description:
+      "Flappy bird style game. Learning how to create games with Phaser 3.",
+    difficulties:
+      "It was really fun to do this game and learn a little bit about the physics of the game. Still having a few problems with the hulk image because it is square and, while passing through his left hand, even if iron man doesn't touch it, it might touch the white space of the square image and iron man will loose. I'm planning on fixing it on photoshop and try again. I am also planning to add new features and tweaking the game a little.",
+    technologies: "HTML, JavaScript, Phaser3, Parcel and Netlify.",
+  },
+  {
+    name: "Simon 2.0 World",
     image: "/images/simon.png",
     url: "https://suzynakayama.github.io/simon/",
     git: "https://github.com/suzynakayama/simon",
     description:
       "Static page game. My version of the electronic Simon game but with 8 colors instead of 4. Created with 2 modes: infinite and leveled, where the user can choose how many levels he wants to play. Made responsively to be playable at smartphones.",
     difficulties:
-      "This was my first project during the Bootcamp and at that time I didn't know how asynchronous JavaScript worked. My biggest challenge with this project was making the computer turn function and figure out how to make the computer know when it's its time to play or wait for the player to play. With the help of my instructor I found out that one way to do it is to use setTimeout within another setTimeout",
+      "This was my first project during the Bootcamp and at that time I didn't know how asynchronous JavaScript worked. My biggest challenge with this project was making the computer turn function and figure out how to make the computer know when it's its time to play or wait for the player to play. With the help of my instructor I found out that one way to do it is to use setTimeout within another setTimeout.",
     technologies: "HTML, CSS, JavaScript, and GitHub Pages.",
   },
   {
