@@ -58,7 +58,7 @@ let projectsData = [
       "HTML/Django Templates, CSS, Themestr, Python, API’s, Django, PostgreSQL, AWS S3, and Heroku.",
   },
   {
-    name: "Simon 2.0 World",
+    name: "Flappy Iron Man",
     image: "/images/flappyIM.png",
     url: "https://flappy-iron-man.netlify.app/",
     git: "https://github.com/suzynakayama/flappy-iron-man-phaser",
