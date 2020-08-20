@@ -58,17 +58,6 @@ let projectsData = [
       "HTML/Django Templates, CSS, Themestr, Python, API’s, Django, PostgreSQL, AWS S3, and Heroku.",
   },
   {
-    name: "Flappy Iron Man",
-    image: "/images/flappyIM.png",
-    url: "https://flappy-iron-man.netlify.app/",
-    git: "https://github.com/suzynakayama/flappy-iron-man-phaser",
-    description:
-      "Flappy bird style game. Learning how to create games with Phaser 3.",
-    difficulties:
-      "It was really fun to do this game and learn a little bit about the physics of the game. Still having a few problems with the hulk image because it is square and, while passing through his left hand, even if iron man doesn't touch it, it might touch the white space of the square image and iron man will loose. I'm planning on fixing it on photoshop and try again. I am also planning to add new features and tweaking the game a little.",
-    technologies: "HTML, JavaScript, Phaser3, Parcel and Netlify.",
-  },
-  {
     name: "Simon 2.0 World",
     image: "/images/simon.png",
     url: "https://suzynakayama.github.io/simon/",
