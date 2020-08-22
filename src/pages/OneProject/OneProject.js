@@ -4,7 +4,7 @@ import "./OneProject.css";
 import "../../components/NavBar/NavBar.css";
 import { Link } from "react-router-dom";
 
-function OneProject(props) {
+const OneProject = (props) => {
     let data = ProjectsData;
     let project = data[props.match.params.id];
 

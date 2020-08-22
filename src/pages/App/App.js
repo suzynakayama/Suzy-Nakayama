@@ -5,7 +5,7 @@ import OneProject from "../OneProject/OneProject";
 import Footer from "../../components/Footer/Footer";
 import "./App.css";
 
-function App() {
+const App = () => {
     const [nightMode, setNightMode] = useState(false);
 
     let toggleNightMode = () => {

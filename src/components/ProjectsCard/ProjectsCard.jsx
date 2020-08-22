@@ -3,7 +3,7 @@ import "./ProjectsCard.css";
 import projectsData from "../../data/ProjectsData";
 import { Link } from "react-router-dom";
 
-function ProjectsCard() {
+const ProjectsCard = () => {
     let data = projectsData;
 
     return (

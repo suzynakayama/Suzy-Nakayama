@@ -2,11 +2,11 @@ import React from "react";
 import Scrollspy from "react-scrollspy";
 import "./NavBar.css";
 
-function NavBar(props) {
+const NavBar = ({theme, toggleNightMode}) => {
     return (
         <nav className="nav">
             <a href="#intro" className="nav__logo--link">
-                {props.theme === false ? (
+                {theme === false ? (
                     <img
                         src="/images/Logo-black.png"
                         alt="logo"
@@ -44,15 +44,15 @@ function NavBar(props) {
                 </li>
             </Scrollspy>
             <button className="nav__theme" aria-label="theme changer">
-                {props.theme === false ? (
+                {theme === false ? (
                     <i
                         className="fas fa-moon"
-                        onClick={props.toggleNightMode}
+                        onClick={toggleNightMode}
                     ></i>
                 ) : (
                     <i
                         className="fas fa-sun"
-                        onClick={props.toggleNightMode}
+                        onClick={toggleNightMode}
                     ></i>
                 )}
             </button>

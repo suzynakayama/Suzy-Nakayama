@@ -1,9 +1,8 @@
 import React from "react";
 import "./Intro.css";
 
-function Intro() {
-    return (
-        <div className="intro" id="intro">
+const Intro = ({src}) =>
+        (<div className="intro" id="intro" style={{backgroundImage: `url(${src})`}}>
             <div className="intro__container">
                 <div className="intro__titles">
                     <h1 className="intro__title--first">Suzy</h1>
@@ -16,6 +15,5 @@ function Intro() {
             </div>
         </div>
     );
-}
 
 export default Intro;

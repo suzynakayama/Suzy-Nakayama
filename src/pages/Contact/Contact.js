@@ -4,7 +4,7 @@ import TrackVisibility from "react-on-screen";
 import "./Contact.css";
 import { Panda } from '../../components/Panda/Panda';
 
-function Contact() {
+const Contact = () => {
 	const [message, setMessage] = useState({
 		name: "",
 		email: "",

@@ -3,7 +3,7 @@ import SpecialtyCard from "../../components/SpecialtyCard/SpecialtyCard";
 import "./About.css";
 import languagesData from "../../data/LanguagesData";
 
-function About() {
+const About = () => {
 
 	const data = languagesData;
 

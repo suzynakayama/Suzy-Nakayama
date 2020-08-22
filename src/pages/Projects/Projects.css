@@ -1,7 +1,7 @@
 .projects {
     padding: 4em 2em 2em;
     min-height: 100vh;
-    background-image: url("/images/computer.png");
+    /* background-image: url("/images/computer.png"); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
