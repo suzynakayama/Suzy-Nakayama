@@ -1,5 +1,17 @@
 let projectsData = [
   {
+    name: "The Ninja Board",
+    image: "/images/ninja.jpg",
+    url:
+      "https://roger-takeshita.github.io/Mintbean_Hackathons_JS_Bootcamp_Olympics/",
+    git: "https://github.com/suzynakayama/ninja-board",
+    description:
+      "Kanban Board created with Roger Takeshita as part of the Mintbean JavaScript Olympics Hackathon. We had less than 3 days to create a frontend only kanban board.",
+    difficulties:
+      "The two biggest difficulties were starting the typescript base from nothing and dealing with the React DnD library. It's not a difficult library, but there is not enough documentation about it. Because of these two difficulties we ended up taking more time than we wanted just to create the base functionality of the app. However, we did ended up finishing the app on time and we were very pleased with the overall and UI of the app.",
+    technologies: "ReactJs, Typescript, Sass, Redux, React DnD.",
+  },
+  {
     name: "Code Mentoring",
     image: "/images/cm.png",
     url: "https://codementoring.co/",
