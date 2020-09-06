@@ -31,6 +31,7 @@
 .project__url,
 .project__code {
     font-size: var(--fs-body);
+    white-space: pre-wrap;
 }
 
 .project__tech--title,

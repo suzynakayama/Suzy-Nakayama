@@ -1,7 +1,8 @@
-let projectsData = [
+const projectsData = [
   {
     name: "The Ninja Board",
     image: "/images/ninja.jpg",
+    imageWebp: "/images/ninja.webp",
     url:
       "https://roger-takeshita.github.io/Mintbean_Hackathons_JS_Bootcamp_Olympics/",
     git: "https://github.com/suzynakayama/ninja-board",
@@ -14,6 +15,7 @@ let projectsData = [
   {
     name: "Code Mentoring",
     image: "/images/cm.png",
+    imageWebp: "/images/cm.webp",
     url: "https://codementoring.co/",
     git: "https://github.com/code-mentoring/learn",
     description:
@@ -26,6 +28,7 @@ let projectsData = [
   {
     name: "Yuki, the Chatbot!",
     image: "/images/yuki.png",
+    imageWebp: "/images/yuki.webp",
     url: "https://yuki-chatbot.herokuapp.com/",
     git: "https://github.com/suzynakayama/chatbot",
     description:
@@ -37,6 +40,7 @@ let projectsData = [
   {
     name: "Footer NPM Package",
     image: "/images/npm-logo.png",
+    imageWebp: "/images/npm-logo.webp",
     url: "https://www.npmjs.com/package/react-myfooter",
     git: "https://github.com/suzynakayama/myfooter-package",
     description:
@@ -48,10 +52,12 @@ let projectsData = [
   {
     name: "The Path",
     image: "/images/path.jpeg",
+    imageWebp: "/images/path.webp",
     url: "https://the-path.herokuapp.com/",
     git: "https://github.com/suzynakayama/the-path",
-    description:
-      "This is a MERN stack Single Page App (SPA) where the user can create his account, plan a trip, search for places to visit and create daily itineraries.",
+    description: `This is a MERN stack Single Page App (SPA) where the user can create his account, plan a trip, search for places to visit and create daily itineraries.
+      Email: test@test.com
+      Password: secretpassword`,
     difficulties:
       "This was my final Bootcamp project. I had a week to develop this website and I think the hardest part for me was having to figure out how to have the user choose the places he wanted to go on each day and make the places appear on those days list. I ended up using an array of those places and whenever the checkbox was checked, I would add to the array and when the checkbox was unchecked I would remove from the array. Then, the user created an itinerary, this array would be added to it and then, the state is refresh and the checkboxes are unchecked",
     technologies:
@@ -60,10 +66,12 @@ let projectsData = [
   {
     name: "Jobbly",
     image: "/images/jobbly.png",
+    imageWebp: "/images/jobbly.webp",
     url: "https://jobbly-tracker.herokuapp.com/",
     git: "https://github.com/suzynakayama/jobbly",
-    description:
-      "Responsive full-stack CRUD application that helps users to keep track of their job search maintaining a database of applications and contacts, adding interviews on their calendar and staying updated with the latest tech news.",
+    description: `Responsive full-stack CRUD application that helps users to keep track of their job search maintaining a database of applications and contacts, adding interviews on their calendar and staying updated with the latest tech news.
+      Login: Test0
+      Password: secretpassword`,
     difficulties:
       "This was my 3rd project on the Bootcamp, it was a group project and I think the hardest part for me was having to do all the frontend by myself, while also helping with the backend. We only had a week to finish and this was a big project with several small details to it, but we prevailed.",
     technologies:
@@ -72,6 +80,7 @@ let projectsData = [
   {
     name: "Simon 2.0 World",
     image: "/images/simon.png",
+    imageWebp: "/images/simon.webp",
     url: "https://suzynakayama.github.io/simon/",
     git: "https://github.com/suzynakayama/simon",
     description:
@@ -83,6 +92,7 @@ let projectsData = [
   {
     name: "Instagames",
     image: "/images/instagames.png",
+    imageWebp: "/images/instagames.webp",
     url: "https://myinstagames.herokuapp.com/",
     git: "https://github.com/suzynakayama/instagames",
     description:
@@ -95,6 +105,7 @@ let projectsData = [
   {
     name: "Rock Paper Scissors Lizard Spock",
     image: "/images/rpsls.png",
+    imageWebp: "/images/rpsls.webp",
     url: "https://suzynakayama.github.io/RockPaperScissorsLizardSpock/",
     git: "https://github.com/suzynakayama/RockPaperScissorsLizardSpock",
     description:
@@ -106,6 +117,7 @@ let projectsData = [
   {
     name: "Tic-Tac-Toe",
     image: "/images/tictactoe.png",
+    imageWebp: "/images/tictactoe.webp",
     url: "https://suzynakayama.github.io/TicTacToe/",
     git: "https://github.com/suzynakayama/TicTacToe",
     description:

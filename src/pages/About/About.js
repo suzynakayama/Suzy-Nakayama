@@ -27,9 +27,8 @@ const About = () => {
             developing and delivering.
           </p>
           <p>
-            I am currently learning GraphQL/Apollo and looking
-            forward to growing my database of programming language/framework
-            knowledge.
+            I am currently learning Gatsby and React Native and looking forward
+            to growing my database of programming language/framework knowledge.
           </p>
           <h3 className="about__text--phrase">
             Learning is my hobby and creating is my passion.

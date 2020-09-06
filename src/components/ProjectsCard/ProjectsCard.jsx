@@ -3,7 +3,7 @@ import "./ProjectsCard.css";
 import projectsData from "../../data/ProjectsData";
 import { Link } from "react-router-dom";
 
-const ProjectsCard = () => {
+const ProjectsCard = ({ cannotUseWebp }) => {
     let data = projectsData;
 
     return (
@@ -14,7 +14,7 @@ const ProjectsCard = () => {
                         <figure className="project-card__each">
                             <img
                                 className="project-card__img"
-                                src={project.image}
+                                src={cannotUseWebp ? project.image : project.imageWebp}
                                 alt={project.name}
                             />
                             <figcaption className="project-card__figcaption">

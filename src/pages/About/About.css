@@ -84,8 +84,9 @@
 
 	.about__line {
 		width: 2px;
-		height: 65vh;
-		margin-right: 10px;
+		/* height: 65vh; */
+		height: 95%;
+		/* margin-right: 10px; */
 		background-color: var(--clr-accent);
 	}
 }
